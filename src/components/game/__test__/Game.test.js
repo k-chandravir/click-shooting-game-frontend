@@ -31,3 +31,7 @@ test('if the health of villain is visible', () => {
     const villainHealthPane = screen.getByTestId("villainHealth");
     expect(villainHealthPane).toBeInTheDocument();
 });
+
+// test('if the health of hero is fetched from backend or not', async() => {
+
+// });
